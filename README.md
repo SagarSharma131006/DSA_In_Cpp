@@ -1,244 +1,516 @@
-# 💻 DSA in C++ — 100+ Day Journey
+# 💻 DSA in C++ — Problem Solving Journey
 
-> A structured journey to master **Data Structures & Algorithms in C++**, improve problem-solving skills, and prepare for technical interviews.
+> A long-term journey to master Data Structures & Algorithms in C++, build strong problem-solving skills, and develop a consistent daily coding habit.
 
 ---
 
 ## 🚀 About This Journey
 
-This repository documents my **100+ day Data Structures and Algorithms journey using C++**.
+This repository documents my **DSA journey using C++**.
 
-The goal is not simply to solve a large number of problems, but to develop a strong understanding of:
+This is not a fixed 100-day or 200-day challenge.
 
-* Data Structures
-* Algorithms
-* Problem-Solving Patterns
-* Time & Space Complexity
-* Optimization
-* Logical Thinking
-* Interview Problem Solving
+The purpose of this journey is to build a **long-term problem-solving habit** by solving **2 new LeetCode problems every day** and mastering topics through practice.
 
-Every day, I will learn a concept and solve **2 new DSA problems** based on what I have learned.
+I don't want to move to a new topic just because I have completed a certain number of questions.
+
+Instead:
+
+> **I will move to the next topic only when I feel confident solving different problems related to the current topic independently.**
+
+The focus is on **understanding, practice, consistency, and problem-solving ability** rather than simply completing a roadmap.
 
 ---
 
-# 🎯 Goals
+# 🎯 Main Goals
 
-By the end of this journey, I aim to:
+Through this journey, I aim to:
 
 * ✅ Build strong DSA fundamentals
-* ✅ Understand Time & Space Complexity
-* ✅ Master important Data Structures
+* ✅ Develop a daily problem-solving habit
+* ✅ Solve **2 new LeetCode problems every day**
+* ✅ Understand the logic behind every solution
 * ✅ Learn common problem-solving patterns
-* ✅ Improve logical and analytical thinking
-* ✅ Solve approximately **200 new DSA problems**
-* ✅ Become comfortable solving problems in C++
-* ✅ Improve optimization skills
+* ✅ Improve Time & Space Complexity analysis
+* ✅ Learn to identify brute-force and optimized approaches
+* ✅ Become comfortable solving problems independently
+* ✅ Gradually increase problem difficulty
 * ✅ Prepare for technical interviews
-* ✅ Build a consistent problem-solving habit
+* ✅ Build long-term consistency
 
 ---
 
-# 📅 Daily DSA System
+# 🔥 Core Rule
 
-Each day follows a simple structure:
+## 2 New LeetCode Problems Every Day
+
+My daily DSA target is:
 
 ```text
-📚 Learn Concept
-       ↓
-💡 Understand Pattern
-       ↓
-🧩 Solve Problem 1
-       ↓
-🧩 Solve Problem 2
-       ↓
-🔍 Analyze Complexity
-       ↓
-📝 Record Learnings
+2 New Problems / Day
 ```
 
-### Daily Target
+However, solving two problems does **not** mean the topic is completed.
 
-> **2 new DSA problems every day**
-
-The problems will gradually increase in difficulty.
+For example:
 
 ```text
-Early Stage
-Easy → Easy
-
-Intermediate Stage
-Easy → Medium
-
-Advanced Stage
-Medium → Medium/Hard
+Time & Space Complexity
+        ↓
+2 Problems
+        ↓
+2 More Problems
+        ↓
+2 More Problems
+        ↓
+...
+        ↓
+10–12+ Problems
+        ↓
+Confidence Check
+        ↓
+Next Topic
 ```
 
-The focus is on **understanding and problem-solving**, not blindly increasing the problem count.
+The number of problems is flexible.
+
+If I need more practice, I will solve more problems.
+
+> **The goal is mastery, not completing a fixed number of questions.**
 
 ---
 
-# 🗺️ DSA Roadmap
+# 🧠 Mastery-Based Learning
 
-## 📌 Days 1–10 — Foundations
+This journey is **topic-based, not day-based**.
 
-* [ ] Day 01 — Time & Space Complexity
-* [ ] Day 02 — Arrays
-* [ ] Day 03 — Strings
-* [ ] Day 04 — Searching
-* [ ] Day 05 — Basic Sorting
-* [ ] Day 06 — Hashing
-* [ ] Day 07 — Two Pointers
-* [ ] Day 08 — Sliding Window
-* [ ] Day 09 — Problem Solving Practice
-* [ ] Day 10 — Foundation Revision
+I will not follow:
 
----
+```text
+Day 1 → Complexity
+Day 2 → Arrays
+Day 3 → Strings
+Day 4 → Searching
+```
 
-## 📌 Days 11–20 — Linear Data Structures
+Instead, the structure will be:
 
-* [ ] Day 11 — Linked Lists
-* [ ] Day 12 — Linked List Operations
-* [ ] Day 13 — Stack
-* [ ] Day 14 — Queue
-* [ ] Day 15 — Deque
-* [ ] Day 16 — Recursion
-* [ ] Day 17 — Recursion Practice
-* [ ] Day 18 — Basic Backtracking
-* [ ] Day 19 — Backtracking Practice
-* [ ] Day 20 — Revision & Problems
+```text
+Learn Topic
+     ↓
+Understand Concepts
+     ↓
+Solve Problems
+     ↓
+Practice Different Variations
+     ↓
+Analyze Solutions
+     ↓
+Build Confidence
+     ↓
+Move to Next Topic
+```
 
----
+A topic may take several days.
 
-## 📌 Days 21–30 — Searching, Sorting & Trees
+It may take more than 10–12 problems.
 
-* [ ] Day 21 — Binary Search
-* [ ] Day 22 — Binary Search Problems
-* [ ] Day 23 — Advanced Sorting
-* [ ] Day 24 — Sorting Problems
-* [ ] Day 25 — Trees Introduction
-* [ ] Day 26 — Binary Trees
-* [ ] Day 27 — Tree Traversals
-* [ ] Day 28 — Binary Search Trees
-* [ ] Day 29 — BST Problems
-* [ ] Day 30 — Trees Revision
+There is **no fixed deadline** for completing a topic.
 
 ---
 
-## 📌 Days 31–40 — Heaps & Graphs
+# 📚 Learning Process
 
-* [ ] Day 31 — Heaps
-* [ ] Day 32 — Priority Queue
-* [ ] Day 33 — Heap Problems
-* [ ] Day 34 — Graph Introduction
-* [ ] Day 35 — Graph Representation
-* [ ] Day 36 — BFS
-* [ ] Day 37 — DFS
-* [ ] Day 38 — Graph Problems
-* [ ] Day 39 — Graph Practice
-* [ ] Day 40 — Graph Revision
+For every topic, I will follow:
 
----
-
-## 📌 Days 41–50 — Greedy & Dynamic Programming
-
-* [ ] Day 41 — Greedy Algorithms
-* [ ] Day 42 — Greedy Problems
-* [ ] Day 43 — Dynamic Programming Introduction
-* [ ] Day 44 — 1D Dynamic Programming
-* [ ] Day 45 — 1D DP Problems
-* [ ] Day 46 — 2D Dynamic Programming
-* [ ] Day 47 — 2D DP Problems
-* [ ] Day 48 — DP Patterns
-* [ ] Day 49 — DP Practice
-* [ ] Day 50 — Revision
-
----
-
-## 📌 Days 51–100+ — Advanced DSA
-
-The roadmap will continue with progressively harder topics, including:
-
-* Advanced Trees
-* Advanced Graph Algorithms
-* Shortest Path Algorithms
-* Minimum Spanning Trees
-* Tries
-* Bit Manipulation
-* Advanced Backtracking
-* Advanced Dynamic Programming
-* Advanced Searching & Sorting
-* Problem-Solving Patterns
-* Interview-Level Problems
-
-The roadmap will evolve as my problem-solving ability improves.
+```text
+1. Learn the Concept
+        ↓
+2. Understand the Fundamentals
+        ↓
+3. Learn Common Patterns
+        ↓
+4. Solve Easy Problems
+        ↓
+5. Solve Easy/Medium Problems
+        ↓
+6. Solve Medium Problems
+        ↓
+7. Practice Different Variations
+        ↓
+8. Analyze Time & Space Complexity
+        ↓
+9. Confidence Check
+        ↓
+10. Move to Next Topic
+```
 
 ---
 
 # 🧩 Problem-Solving Approach
 
-For every problem, I will try to follow this process:
+For every LeetCode problem, I will try to follow:
 
 ```text
-1. Understand the problem
+Understand the Problem
         ↓
-2. Identify the pattern
+Identify What is Being Asked
         ↓
-3. Think about brute force
+Think of Brute Force
         ↓
-4. Analyze Time & Space Complexity
+Analyze Complexity
         ↓
-5. Find an optimized approach
+Look for Optimization
         ↓
-6. Implement in C++
+Identify the Pattern/Data Structure
         ↓
-7. Test edge cases
+Write the Approach
         ↓
-8. Review and learn
+Implement in C++
+        ↓
+Test Edge Cases
+        ↓
+Analyze Time & Space Complexity
+        ↓
+Review the Solution
 ```
 
-The goal is to understand **why the solution works**, not just memorize the code.
+The goal is to understand:
+
+> **Why does this solution work?**
+
+and not simply:
+
+> **What code should I write?**
 
 ---
 
-# 📊 Problem Progress
+# 🧠 Problem Difficulty Progression
 
-My target is:
+Problems will gradually become harder.
 
-| Period    | New Problems |
-| --------- | -----------: |
-| 1 Day     |            2 |
-| 7 Days    |           14 |
-| 30 Days   |           60 |
-| 50 Days   |          100 |
-| 100 Days  |          200 |
-| 100+ Days |         200+ |
+```text
+Easy
+  ↓
+Easy
+  ↓
+Easy / Medium
+  ↓
+Medium
+  ↓
+Medium
+  ↓
+Medium / Hard
+```
 
-> **2 problems every day. Consistency over quantity.**
+I will not intentionally jump to difficult problems before the fundamentals are strong.
+
+The difficulty will increase according to my understanding and performance.
+
+---
+
+# 🗺️ Learning Roadmap
+
+The following topics provide a general direction for the journey.
+
+This is **not a fixed day-by-day schedule**.
+
+Topics will be completed based on understanding and confidence.
+
+## 🌱 Foundations
+
+* Time & Space Complexity
+* Arrays
+* Strings
+* Searching
+* Basic Sorting
+* Hashing
+* Two Pointers
+* Sliding Window
+
+---
+
+## 🔗 Linear Data Structures
+
+* Linked Lists
+* Stack
+* Queue
+* Deque
+* Recursion
+* Basic Backtracking
+
+---
+
+## 🌳 Trees & Searching
+
+* Binary Search
+* Trees
+* Binary Trees
+* Tree Traversals
+* Binary Search Trees
+* BST Problems
+
+---
+
+## ⚡ Heaps & Priority Queues
+
+* Heap
+* Min Heap
+* Max Heap
+* Priority Queue
+* Heap Problems
+
+---
+
+## 🕸️ Graphs
+
+* Graph Representation
+* BFS
+* DFS
+* Connected Components
+* Graph Traversals
+* Shortest Path Algorithms
+* Minimum Spanning Tree
+
+---
+
+## 💰 Greedy Algorithms
+
+* Greedy Fundamentals
+* Greedy Patterns
+* Greedy Problems
+* Optimization Problems
+
+---
+
+## 🧠 Dynamic Programming
+
+* DP Introduction
+* Memoization
+* Tabulation
+* 1D DP
+* 2D DP
+* DP Patterns
+* Advanced DP
+
+---
+
+## 🔬 Advanced Topics
+
+As my problem-solving ability improves, additional topics will be introduced, such as:
+
+* Tries
+* Bit Manipulation
+* Advanced Graph Algorithms
+* Advanced Trees
+* Advanced Backtracking
+* Advanced Dynamic Programming
+* Advanced Searching & Sorting
+* Other Interview-Level Patterns
+
+---
+
+# 📊 Topic Completion Rule
+
+A topic will **not** be considered complete simply because I solved 10 or 12 problems.
+
+The actual completion criteria are:
+
+```text
+              Topic
+                ↓
+        Concept Understanding
+                ↓
+        Multiple Problems
+                ↓
+       Different Variations
+                ↓
+       Complexity Analysis
+                ↓
+       Independent Thinking
+                ↓
+          Confidence Check
+                ↓
+        Topic Considered Ready
+                ↓
+          Next Topic
+```
+
+### Typical Target
+
+```text
+~10–12+ problems per topic
+```
+
+But this is only a guideline.
+
+Some topics may require:
+
+```text
+8 problems
+```
+
+while others may require:
+
+```text
+15–20+ problems
+```
+
+The number depends on the topic and my level of understanding.
 
 ---
 
 # 🔄 Revision Bank
 
-Problems solved before starting this journey will remain part of my **Revision Bank**.
+Problems solved **before starting this journey** will remain part of my:
 
-They are separate from the new daily challenge.
+## Revision Bank
+
+These include previously solved problems from platforms such as:
+
+* LeetCode
+* Code360
+* Other practice platforms
+
+They will **not** count toward my daily target of 2 new problems.
+
+The Revision Bank will be used for:
 
 ```text
-                 DSA
-                  │
-        ┌─────────┴─────────┐
-        │                   │
-   New Problems        Revision Bank
-        │                   │
-   2 per day          Previous Problems
-        │                   │
-        └─────────┬─────────┘
-                  ↓
-          Continuous Growth
+Revision
+   ↓
+Pattern Recognition
+   ↓
+Weak Topic Identification
+   ↓
+Repeated Practice
 ```
 
-Old LeetCode and Code360 problems will therefore **not be counted as part of the 2 new daily problems**.
+---
+
+# 📈 Daily Progress
+
+Every day:
+
+```text
+2 New LeetCode Problems
+        +
+Concept Practice
+        +
+Complexity Analysis
+        +
+Learning from Mistakes
+```
+
+The number of days is not the primary goal.
+
+The goal is to maintain the habit:
+
+> **Solve 2 problems every day.**
+
+---
+
+# 🏆 Long-Term Progress
+
+Instead of measuring success only through:
+
+```text
+Days Completed
+```
+
+I will measure progress through:
+
+```text
+Problems Solved
+        +
+Topics Mastered
+        +
+Patterns Learned
+        +
+Mistakes Corrected
+        +
+Complexity Understanding
+        +
+Independent Problem Solving
+```
+
+---
+
+# 📂 Repository Structure
+
+The repository will be organized primarily around **topics**, not fixed days.
+
+Example:
+
+```text
+DSA-in-CPP/
+│
+├── README.md
+│
+├── 01_Time_and_Space_Complexity/
+│   ├── notes.md
+│   ├── concepts.cpp
+│   │
+│   └── problems/
+│       ├── problem_01.cpp
+│       ├── problem_02.cpp
+│       ├── problem_03.cpp
+│       └── ...
+│
+├── 02_Arrays/
+│   ├── notes.md
+│   ├── concepts.cpp
+│   │
+│   └── problems/
+│       ├── problem_01.cpp
+│       ├── problem_02.cpp
+│       └── ...
+│
+├── 03_Strings/
+│   ├── notes.md
+│   ├── concepts.cpp
+│   └── problems/
+│
+├── 04_Searching/
+│   └── ...
+│
+└── ...
+```
+
+This structure allows one topic to contain as many problems as necessary without being restricted by a day number.
+
+---
+
+# 📝 What Each Topic Contains
+
+Each topic may contain:
+
+### `notes.md`
+
+```text
+Topic
+Concepts
+Important Points
+Patterns
+Common Mistakes
+Complexity
+Key Takeaways
+```
+
+### `concepts.cpp`
+
+C++ implementations and examples related to the topic.
+
+### `problems/`
+
+LeetCode solutions related to the topic.
+
+```text
+problem_01.cpp
+problem_02.cpp
+problem_03.cpp
+...
+```
 
 ---
 
@@ -254,172 +526,159 @@ Old LeetCode and Code360 problems will therefore **not be counted as part of the
 * GitHub
 * VS Code
 
-### Problem-Solving Platforms
+### Problem-Solving Platform
 
-Problems may be selected from:
+Primary platform:
 
 * LeetCode
-* CodeChef
-* Codeforces
-* GeeksforGeeks
-* Code360
+
+Previously solved problems from other platforms will remain part of the Revision Bank.
 
 ---
 
-# 📂 Repository Structure
+# 📌 LeetCode Strategy
 
-Each day will have its own folder.
+For every problem:
+
+### First Attempt
+
+I will try to solve the problem independently.
+
+I will avoid immediately looking at:
+
+* Solutions
+* Editorials
+* Other people's code
+
+If I get stuck:
 
 ```text
-DSA-in-CPP/
-│
-├── README.md
-│
-├── Day_01_Time_and_Space_Complexity/
-│   ├── notes.md
-│   ├── concepts.cpp
-│   │
-│   └── problems/
-│       ├── problem_01.cpp
-│       └── problem_02.cpp
-│
-├── Day_02_Arrays/
-│   ├── notes.md
-│   ├── concepts.cpp
-│   │
-│   └── problems/
-│       ├── problem_01.cpp
-│       └── problem_02.cpp
-│
-├── Day_03_Strings/
-│   ├── notes.md
-│   ├── concepts.cpp
-│   └── problems/
-│       ├── problem_01.cpp
-│       └── problem_02.cpp
-│
-└── ...
+Problem
+   ↓
+Think
+   ↓
+Attempt
+   ↓
+Hint
+   ↓
+Attempt Again
+   ↓
+Approach Discussion
+   ↓
+Solution
 ```
 
-This structure keeps the repository organized and makes the progression easy to follow.
+The purpose is to develop **independent problem-solving ability**.
 
 ---
 
-# 📝 Daily Notes
+# ⚠️ Consistency Rule
 
-Each day's `notes.md` may contain:
+This is a **long-term journey**.
+
+There is no requirement to finish DSA in:
 
 ```text
-Topic
-What I Learned
-Important Concepts
-C++ Syntax
-Common Patterns
-Time Complexity
-Space Complexity
-Mistakes
-Key Takeaways
+100 Days
+200 Days
+300 Days
 ```
 
-This allows the repository to become a **personal DSA knowledge base**, not just a collection of solutions.
-
----
-
-# 🏆 Progress Tracker
-
-| Section                      |    Days | Status |
-| ---------------------------- | ------: | ------ |
-| Foundations                  |    1–10 | ⬜      |
-| Linear Data Structures       |   11–20 | ⬜      |
-| Searching, Sorting & Trees   |   21–30 | ⬜      |
-| Heaps & Graphs               |   31–40 | ⬜      |
-| Greedy & Dynamic Programming |   41–50 | ⬜      |
-| Advanced DSA                 | 51–100+ | ⬜      |
-
----
-
-# 📈 Learning Philosophy
-
-### Consistency > Intensity
-
-Some days may involve several hours of DSA.
-
-Some days may involve only the two daily problems.
-
-Both are progress.
+The journey will continue for as long as necessary.
 
 If I miss a day:
 
 ```text
 ❌ Don't restart
 ❌ Don't abandon the journey
-❌ Don't try to complete everything at once
+❌ Don't rush to compensate
 
 ✅ Continue from the next day
 ```
 
-The goal is to build a sustainable habit.
+One missed day does not erase previous progress.
 
 ---
 
-# 🎯 Long-Term Goal
+# ❤️ The Real Goal
 
-This DSA journey is part of a larger technical roadmap.
+This journey is not about saying:
+
+> "I solved 200 problems."
+
+It is about being able to say:
+
+> **"Give me a new problem, and I can think about how to solve it."**
+
+The ultimate goal is to develop the habit of:
 
 ```text
-              DSA in C++
-                   │
-                   +
-                Python
-                   │
-                   +
-            Data Analysis
-                   │
-                   +
-         Machine Learning
-                   │
-                   +
-          Deep Learning
-                   │
-                   +
-                  SQL
-                   │
-                   +
-       Computer Science Fundamentals
-                   │
-                   ↓
-        Technical Interview Preparation
-                   │
-                   ↓
-          Internships & Placements
+Read
+ ↓
+Think
+ ↓
+Analyze
+ ↓
+Solve
+ ↓
+Optimize
+ ↓
+Learn
+ ↓
+Repeat
 ```
 
 ---
 
-# 🔥 The Challenge
+# 🚀 Long-Term Vision
 
-## 100+ Days
+DSA is one part of my broader technical journey.
 
-### 2 Problems Every Day
-
-### One Concept at a Time
-
-### One Pattern at a Time
-
-### One Day at a Time
-
-> **The goal isn't to finish DSA. The goal is to become better at solving problems.**
+```text
+                 DSA in C++
+                      │
+                      +
+                   Python
+                      │
+                      +
+                Data Analysis
+                      │
+                      +
+             Machine Learning
+                      │
+                      +
+               Deep Learning
+                      │
+                      +
+                     SQL
+                      │
+                      +
+          Computer Science Fundamentals
+                      │
+                      ↓
+             Interview Preparation
+                      │
+                      ↓
+               Internships
+                      │
+                      ↓
+                 Placements
+```
 
 ---
 
-## 📌 Current Progress
+# 🔥 The Journey
 
-**Current DSA Day:** Day 0
+## 2 Problems Every Day
 
-**Daily Target:** 2 New Problems
+## One Topic at a Time
 
-**Language:** C++
+## Master Before Moving On
 
-**Journey:** 100+ Days
+## No Fixed Deadline
 
-**Status:** 🚀 Starting Soon
+## Consistency Over Perfection
+
+> **The goal isn't to finish DSA. The goal is to become a better problem solver.**
+
+
