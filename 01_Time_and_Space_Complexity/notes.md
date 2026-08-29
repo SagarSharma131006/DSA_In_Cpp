@@ -314,29 +314,134 @@ The goal is to find an **efficient and correct solution**.
 
 ---
 
-# 🧠 Current Practice
+# 🧠 LeetCode Practice
 
-Problems solved so far:
+The following problems have been solved as part of the Time & Space Complexity practice.
 
-### 1. Two Sum — LeetCode #1
+---
 
-Focus:
+## 1. Two Sum — LeetCode #1
+
+**Difficulty:** Easy
+
+### Focus:
 
 * Array traversal
-* Brute Force
+* Brute Force approach
 * Hashing
 * Time Complexity
 * Space Complexity
+* Comparing brute force and optimized approaches
 
-### 2. Contains Duplicate — LeetCode #217
+### Complexity of Optimized Solution:
 
-Focus:
+```text
+Time Complexity: O(n) average
+Space Complexity: O(n)
+```
+
+---
+
+## 2. Contains Duplicate — LeetCode #217
+
+**Difficulty:** Easy
+
+### Focus:
 
 * Duplicate detection
 * Array traversal
-* Hashing / Set
+* Hashing
+* Set
 * Time Complexity
 * Space Complexity
+
+### Complexity:
+
+```text
+Time Complexity: O(n) average
+Space Complexity: O(n)
+```
+
+---
+
+## 3. Find Numbers with Even Number of Digits — LeetCode #1295
+
+**Difficulty:** Easy
+
+### Focus:
+
+* Array traversal
+* Checking number of digits
+* Conditional statements
+* Understanding linear traversal
+* Time Complexity
+* Space Complexity
+
+### Approach Used:
+
+The solution checks whether each number falls into a range representing an even number of digits.
+
+```text
+10 – 99
+1000 – 9999
+100000
+```
+
+If the number has an even number of digits, the counter is increased.
+
+### Complexity:
+
+```text
+Time Complexity: O(n)
+Space Complexity: O(1)
+```
+
+---
+
+## 4. Maximum Number of Words Found in Sentences — LeetCode #2114
+
+**Difficulty:** Easy
+
+### Focus:
+
+* Iterating through strings
+* Counting spaces
+* Finding the maximum value
+* String processing
+* Time Complexity
+* Space Complexity
+
+### Approach Used:
+
+For every sentence, count the number of spaces.
+
+Since words are separated by spaces:
+
+```text
+Number of words = Number of spaces + 1
+```
+
+Then keep track of the maximum number of words found.
+
+### Complexity:
+
+Let `L` represent the total number of characters processed across all sentences.
+
+```text
+Time Complexity: O(L)
+Space Complexity: O(1)
+```
+
+---
+
+# 📊 Current Problem Progress
+
+| # | LeetCode Problem                           | Difficulty | Status   |
+| - | ------------------------------------------ | ---------- | -------- |
+| 1 | Two Sum                                    | Easy       | ✅ Solved |
+| 2 | Contains Duplicate                         | Easy       | ✅ Solved |
+| 3 | Find Numbers with Even Number of Digits    | Easy       | ✅ Solved |
+| 4 | Maximum Number of Words Found in Sentences | Easy       | ✅ Solved |
 
 ---
 
@@ -344,16 +449,77 @@ Focus:
 
 This topic is **not considered complete yet**.
 
-I will continue solving problems related to Time & Space Complexity until I develop enough confidence to analyze complexity and recognize efficient approaches independently.
+The goal is not simply to solve two problems and immediately move to the next DSA topic.
+
+I will continue solving problems related to **Time & Space Complexity** until I develop enough confidence to:
+
+* Identify the complexity of an algorithm
+* Analyze loops
+* Analyze nested loops
+* Understand time vs space trade-offs
+* Compare brute-force and optimized approaches
+* Recognize common Big O complexities
+* Analyze my own LeetCode solutions
+* Understand why one solution is more efficient than another
 
 ### Current Progress
 
 ```text
-Problems Solved: 2+
+Problems Solved: 4
 
 Target: ~10–12+ problems
 
 Status: 🚀 In Progress
 ```
 
+---
+
+# 🔥 Learning Philosophy
+
 > **2 problems a day is the habit. Topic mastery is the milestone.**
+
+The number of problems solved is not the only measure of progress.
+
+The real goal is to develop the ability to **understand, analyze, and solve problems independently**.
+
+```text
+Learn
+  ↓
+Understand
+  ↓
+Solve
+  ↓
+Analyze Complexity
+  ↓
+Review Mistakes
+  ↓
+Build Confidence
+  ↓
+Move to Next Topic
+```
+
+---
+
+# 🚀 DSA Journey
+
+This repository is part of my long-term **DSA in C++ journey**.
+
+I am not following a fixed "one topic per day" system.
+
+Instead:
+
+```text
+Topic
+  ↓
+Learn Concepts
+  ↓
+Practice
+  ↓
+Solve 10–12+ Problems
+  ↓
+Build Confidence
+  ↓
+Move to Next Topic
+```
+
+The goal is to build a **daily problem-solving habit** and develop strong DSA fundamentals step by step.
